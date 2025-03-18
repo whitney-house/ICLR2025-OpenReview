@@ -1,3 +1,6 @@
 **ICLR 2025 Paper Analysis using OpenReview API**  
 
-This project fetches ICLR 2025 paper submission data using the OpenReview API. It allows users to analyze and visualize the top-K institutions and top-K authors based on accepted papers.
+This project automatically fetches ICLR 2025 paper submission data using the OpenReview API.
+You just have to replace your own OpenReview credentials by following this to [register](https://docs.openreview.net/getting-started/creating-an-openreview-profile/signing-up-for-openreview)
+
+
