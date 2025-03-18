@@ -36,7 +36,15 @@ This project automatically fetches ICLR 2025 paper submission data using the Ope
    ```bash
    pip install python-dotenv
    ```
-   
+   Then in **fetch_data.py** write like this:
+   ```bash
+   from dotenv import load_dotenv
+   import os
+
+   load_dotenv()  
+   USERNAME = os.getenv("OPENREVIEW_USERNAME")
+   PASSWORD = os.getenv("OPENREVIEW_PASSWORD")
+   ```  
 
 **7.** run the scripts: 
    ```bash
