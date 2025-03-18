@@ -12,8 +12,10 @@ This project automatically fetches ICLR 2025 paper submission data using the Ope
    ```bash
    pip install openreview-py
    
-4.replace your own USERNAME and PASSWORD
+4.replace your own USERNAME and PASSWORD  
+
 5. simply run "python/python3 main.py"
+   
 6. Sit back, relax, and enjoy the results! 🎉
 
 
