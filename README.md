@@ -27,7 +27,7 @@ This project automatically fetches ICLR 2025 paper submission data using the Ope
    conda activate <your_environment_name>
    ```
    
-**6.** If you prefer using a .env file instead of Conda environment variables, create a .env file in the project root and add:
+**6.** If you prefer using a .env file instead of Conda environment variables, create a .env file **(Don't upload to github)** in the project root and add:
    ```bash
    OPENREVIEW_USERNAME=<your_username>
    OPENREVIEW_PASSWORD=<your_password>
