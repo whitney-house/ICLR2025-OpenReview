@@ -24,6 +24,7 @@ This project automatically fetches ICLR 2025 paper submission data using the Ope
    ```bash
    conda env config vars set OPENREVIEW_USERNAME=<your_username>
    conda env config vars set OPENREVIEW_PASSWORD=<your_password>
+   conda deactivate <your_environment_name>
    conda activate <your_environment_name>
    ```
    
